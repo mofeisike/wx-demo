@@ -1,0 +1,14 @@
+<view class='theme'>
+
+  <text class='theme-text'>节点列表</text>
+
+  <view class='theme-selection'>
+
+    <view class='theme-selection-group' wx:for="{{['','','','','','','','']}}">
+      <image src='/images/index/v2ex.png' class='theme-selection-group-images'></image>
+      <text class='theme-selection-group-text'>节点名称</text>
+    </view>
+
+  </view>
+
+</view>

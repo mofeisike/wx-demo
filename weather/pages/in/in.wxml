@@ -1,0 +1,24 @@
+<view class='content'>
+
+  <view class='today'>
+    <view class='info'>
+      <view class='temp'>
+        <text>{{temp}}℃</text>
+      </view>
+      <view class='weather'>
+        <text>{{ganmao}}</text>
+      </view>
+      <view class='city'>
+        <text>{{city}}</text>
+      </view>
+    </view>
+  </view>
+  
+  <import src="../template/temp"/>
+  <view class='future'>
+      <view class='future-group' wx:for="{{future}}">
+        <template is="future-item" data="{{item}}"/>
+      </view>    
+  </view>
+
+</view>

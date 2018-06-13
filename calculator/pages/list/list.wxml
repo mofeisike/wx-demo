@@ -1,0 +1,6 @@
+<!--pages/list/list.wxml-->
+<view class="list">
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <view class='item'>{{log}}</view>
+  </block>
+</view>

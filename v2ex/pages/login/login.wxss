@@ -1,0 +1,42 @@
+.swiper-module{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 800rpx;
+}
+
+.slide-image{
+   height: 100%; 
+   width : 100%;
+  
+}
+
+.swiper-module-group{
+  display: flex;
+  justify-content: center
+}
+
+.swiper-module-group-text{
+  font-size: 10pt;
+}
+
+.button-group{
+  display: flex;
+  justify-content: space-between;  
+  padding: 40rpx;
+}
+
+.swiper-buttom{
+  width: 200rpx;
+  border-radius: 20%;
+}
+
+.button-group-img{
+  width: 50rpx;
+  height: 50rpx;
+  
+}
+
+.login{
+  
+}

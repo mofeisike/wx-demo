@@ -1,0 +1,32 @@
+<view class='log-container'>
+
+  <view class='log-container-one'>
+    <text class='log-container-one-title' bindtap='jump' id='113'>标题</text>
+  </view>
+
+  <view class='log-container-two'>
+    <text class='log-container-one-author'>作者信息</text>
+  </view>
+
+  <view class='log-container-matter'>
+    <text class='log-container-matter-text'>"黑发不知勤学早，白首方悔读书迟。\n ——颜真卿"</text>
+  </view>
+
+  <view class='log-container-three'>
+    <text class='log-container-three-restore'>回复</text>
+    <text class='log-container-three-comment'>评论</text>
+  </view>
+
+  <view class='log-container-double' wx:for="{{double}}">
+    <view class='log-container-four'>
+      <text class='log-container-four-user'>用户</text>
+    </view>
+
+    <view class='log-container-five'>
+      <text class='log-container-four-content'>"内容\n黑发不知勤学早，白首方悔读书迟。\n——颜真卿"</text>
+    </view>
+  </view>
+
+  
+
+</view>

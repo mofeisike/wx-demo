@@ -1,0 +1,26 @@
+/* pages/list/list.wxss */
+page{
+  height: 100%;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #AEEEEE
+  
+}
+
+.item{
+  width: 90%;
+  border-radius: 5rpx;
+  background-color:  	#FDF5E6;
+  margin-top: 3rpx;
+  margin-bottom: 3rpx;
+  text-align: center;
+  border: 1px solid #da7c0c;
+  
+  
+}

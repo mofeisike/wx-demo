@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/commend/commend",
+    "pages/search/search"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2B2B2B",
+    "navigationBarTitleText": "电影",
+    "navigationBarTextStyle":"white"
+    
+
+  },
+
+  "tabBar": {
+    "color":"#dddddd",
+    "selectedColor" : "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#2b2b2b",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/img/dy-1.png",
+        "selectedIconPath": "assets/img/dy.png",
+        "text": "电影热映"
+      },
+      {
+        "pagePath": "pages/commend/commend",
+        "iconPath": "assets/img/tj-1.png",
+        "selectedIconPath": "assets/img/tj.png",
+        "text": "电影推荐"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "assets/img/search-1.png",
+        "selectedIconPath": "assets/img/search.png",
+        "text": "电影搜索"
+      }
+    ]
+  }
+
+
+}

@@ -1,0 +1,20 @@
+<view class='index-container'>
+
+  <view class='index-page-context1' wx:for="{{context}}" wx:key="unique">
+    <view>
+      <image class='imgv2ex' src="/images/index/v2ex.png" mode='aspectFill'></image>
+      <text class='index-page-context1-title-name'>用户</text>
+    </view>
+    <view class='index-page-context1-title'>
+      <text class='index-page-context1-title-text'>这是标题</text>
+    </view>
+    <view class='index-page-context1-buttom'>
+      <text class='index-page-context1-comment'>评论</text>
+      <text class='index-page-context1-restore'>回复</text>
+    </view>
+  </view>
+
+  
+
+</view>
+

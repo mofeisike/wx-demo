@@ -1,0 +1,46 @@
+.index-container{
+  display: flex;
+  flex-direction: column
+}
+
+.index-page-context1{
+  /* border: 2rpx solid; */
+  margin-bottom: 10rpx;
+  padding: 8px;
+  border-bottom: 5px solid #EFEFE3;
+}
+
+.index-page-context1-title-name{
+  font-size: 14px;
+  color: #888888;
+}
+
+.index-page-context1-title{
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+}
+
+.index-page-context1-title-text{
+  font-size: 20px;
+  color: #353535;
+}
+
+.index-page-context1-buttom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.index-page-context1-comment{
+  font-size: 15px;
+  color: #888888;
+}
+
+.index-page-context1-restore{
+  font-size: 15px;
+  color: #888888;
+}
+
+.imgv2ex{
+  height: 35rpx;
+  width: 75rpx;
+}

@@ -1,0 +1,84 @@
+.log-container{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: #AEEEEE;
+  height: 100%
+}
+
+.log-container-one{
+  
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.log-container-one-title{
+  font-size: 20pt;
+  
+}
+
+.log-container-two{
+  
+  margin-top: 5px;
+  margin-bottom: 5px;  
+}
+
+.log-container-one-author{
+  color: #888888;
+}
+
+.log-container-matter{
+  
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.log-container-matter-text{
+  font-size: 15pt;
+}
+
+.log-container-three{
+  
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between
+}
+
+.log-container-three-restore{
+  font-size: 11pt;
+}
+
+.log-container-three-comment{
+  font-size: 11pt;
+}
+
+.log-container-double{
+  border: 1px solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #ffffff;
+}
+
+.log-container-four{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+
+.log-container-four-user{
+  font-size: 12pt;
+}
+
+.log-container-five{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+
+log-container-four-content{
+  font-size: 16pt;
+}

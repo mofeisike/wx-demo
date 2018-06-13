@@ -1,0 +1,8 @@
+<template name="future-item">
+  <view class="future-item">
+    <view class="detail">{{item.type}}</view>
+    <view class="detail">{{item.hight}}</view>
+    <view class="detail">{{item.low}}</view>
+    <view class="detail">{{item.fengxiang}}</view>
+  </view>
+</template>

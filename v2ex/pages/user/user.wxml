@@ -1,0 +1,58 @@
+<view class='text'>
+  <view class='text-box'>
+    <view class='text-box-text'>
+      <text class='text-box-text-title'>
+        {{post.title}}
+      </text>
+    </view>
+    <view class='text-box-buttom'>
+      <text class='text-box-buttom-user'>{{post.member.username}}</text>
+      <text class='text-box-buttom-time'>时间</text>
+    </view>
+  </view>
+
+  <view class='text-comment'>
+    <view class='text-comment-top'>
+      <text class='text-box-text-title'>
+        {{post.content}}
+      </text>
+    </view>
+    <view class='text-box-buttom'>
+      <text class='text-comment-buttom-restore'>{{post.replies}}条回复</text>
+      <text class='text-comment-buttom-node'>{{post.node.name}}</text>
+    </view>
+  </view>
+
+  <view>
+    <view wx:for="{{comment}}">
+      <text>
+        <!-- {{index}} -->
+        {{item.member.username}}
+      </text>
+      <text>
+        {{item.content}}
+      </text>
+    </view>
+  </view>
+
+</view>
+
+
+
+<view class='user'>
+  <view class='user-Interface'>
+    <image src='/images/index/v2ex.png' class='user-Interface-images'></image>
+    <text class='user-Interface-text'>用户名</text>
+  </view>
+  <view class='user-textbox' wx:for="{{['','','','']}}">
+    <view class='user-textbox-top'>
+      <text class='user-textbox-top-remask'>我需要三件东西：爱情友谊和图书。然而这三者之间何其相通！炽热的爱情可以充实图书的内容，图书又是人们最忠实的朋友。 \n—— 蒙田
+</text>
+    </view>
+    <view class='user-textbox-buttom'>
+      <text class='user-textbox-buttom-revert'>回复</text>
+      <text class='user-textbox-buttom-review'>评论</text>
+    </view>
+    
+  </view>
+</view>

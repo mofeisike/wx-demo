@@ -1,0 +1,25 @@
+.theme{
+
+}
+
+.theme-selection{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.theme-selection-group{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 33%;
+  
+  align-items: center;
+}
+
+.theme-selection-group-images{
+  height: 48px;
+  width: 48px;
+}
+
+.theme-selection-group-text{
+  display: block;
+}
